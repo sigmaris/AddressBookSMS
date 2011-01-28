@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8637AE1066DD7A0059190F /* BluetoothCommandChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8637AD1066DD7A0059190F /* BluetoothCommandChannel.m */; };
+		1E8638061067C90B0059190F /* SMSSender.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E8638051067C90B0059190F /* SMSSender.mm */; };
+		1EE982DE10655E2B00DCC186 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6112F71061391A000D1D65 /* IOBluetooth.framework */; };
+		1EE982E010655E4000DCC186 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE982DF10655E4000DCC186 /* AddressBook.framework */; };
+		1EE982E910655F6800DCC186 /* ABSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE982E610655F6800DCC186 /* ABSMS.m */; };
+		1EE982EA10655F6800DCC186 /* SMSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE982E810655F6800DCC186 /* SMSWindowController.m */; };
+		1EE982ED10655F9C00DCC186 /* ABPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE982EC10655F9C00DCC186 /* ABPane.xib */; };
+		1EE9834C1065602F00DCC186 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		1EE984A11065733200DCC186 /* pdu.cc in Sources */ = {isa = PBXBuildFile; fileRef = BEB1CFFC1062E5F300259033 /* pdu.cc */; };
+		1EE985481066266300DCC186 /* BluetoothPhoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE985471066266300DCC186 /* BluetoothPhoneInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1E8637AC1066DD7A0059190F /* BluetoothCommandChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCommandChannel.h; sourceTree = "<group>"; };
+		1E8637AD1066DD7A0059190F /* BluetoothCommandChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCommandChannel.m; sourceTree = "<group>"; };
+		1E8638041067C90B0059190F /* SMSSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSender.h; sourceTree = "<group>"; };
+		1E8638051067C90B0059190F /* SMSSender.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SMSSender.mm; sourceTree = "<group>"; };
+		1EE982B310655DDE00DCC186 /* emitSMSAddressBookPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emitSMSAddressBookPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE982B410655DDE00DCC186 /* AddressBookPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddressBookPlugin-Info.plist"; sourceTree = "<group>"; };
+		1EE982DF10655E4000DCC186 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1EE982E510655F6800DCC186 /* ABSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSMS.h; sourceTree = "<group>"; };
+		1EE982E610655F6800DCC186 /* ABSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSMS.m; sourceTree = "<group>"; };
+		1EE982E710655F6800DCC186 /* SMSWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSWindowController.h; sourceTree = "<group>"; };
+		1EE982E810655F6800DCC186 /* SMSWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSWindowController.m; sourceTree = "<group>"; };
+		1EE982EC10655F9C00DCC186 /* ABPane.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ABPane.xib; sourceTree = "<group>"; };
+		1EE985461066266300DCC186 /* BluetoothPhoneInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothPhoneInfo.h; sourceTree = "<group>"; };
+		1EE985471066266300DCC186 /* BluetoothPhoneInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothPhoneInfo.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* bluetooth_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bluetooth_Prefix.pch; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		BE6112F71061391A000D1D65 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		BE7176791063AA450088E08E /* pdu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdu.h; sourceTree = "<group>"; };
+		BEB1CFFC1062E5F300259033 /* pdu.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pdu.cc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE982B110655DDE00DCC186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE9834C1065602F00DCC186 /* Cocoa.framework in Frameworks */,
+				1EE982DE10655E2B00DCC186 /* IOBluetooth.framework in Frameworks */,
+				1EE982E010655E4000DCC186 /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EE982E510655F6800DCC186 /* ABSMS.h */,
+				1EE982E610655F6800DCC186 /* ABSMS.m */,
+				1EE982E710655F6800DCC186 /* SMSWindowController.h */,
+				1EE982E810655F6800DCC186 /* SMSWindowController.m */,
+				1EE985461066266300DCC186 /* BluetoothPhoneInfo.h */,
+				1EE985471066266300DCC186 /* BluetoothPhoneInfo.m */,
+				1E8637AC1066DD7A0059190F /* BluetoothCommandChannel.h */,
+				1E8637AD1066DD7A0059190F /* BluetoothCommandChannel.m */,
+				1E8638041067C90B0059190F /* SMSSender.h */,
+				1E8638051067C90B0059190F /* SMSSender.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE6112F71061391A000D1D65 /* IOBluetooth.framework */,
+				1EE982DF10655E4000DCC186 /* AddressBook.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE982B310655DDE00DCC186 /* emitSMSAddressBookPlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = bluetooth;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BE7176791063AA450088E08E /* pdu.h */,
+				BEB1CFFC1062E5F300259033 /* pdu.cc */,
+				256AC3F00F4B6AF500CF3369 /* bluetooth_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EE982EC10655F9C00DCC186 /* ABPane.xib */,
+				1EE982B410655DDE00DCC186 /* AddressBookPlugin-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE982B210655DDE00DCC186 /* SMSAddressBookPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE982B710655DDE00DCC186 /* Build configuration list for PBXNativeTarget "SMSAddressBookPlugin" */;
+			buildPhases = (
+				1EE982AF10655DDE00DCC186 /* Resources */,
+				1EE982B010655DDE00DCC186 /* Sources */,
+				1EE982B110655DDE00DCC186 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSAddressBookPlugin;
+			productName = AddressBookPlugin;
+			productReference = 1EE982B310655DDE00DCC186 /* emitSMSAddressBookPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AddressBookSMS" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* bluetooth */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE982B210655DDE00DCC186 /* SMSAddressBookPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE982AF10655DDE00DCC186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE982ED10655F9C00DCC186 /* ABPane.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE982B010655DDE00DCC186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE984A11065733200DCC186 /* pdu.cc in Sources */,
+				1EE982E910655F6800DCC186 /* ABSMS.m in Sources */,
+				1EE982EA10655F6800DCC186 /* SMSWindowController.m in Sources */,
+				1EE985481066266300DCC186 /* BluetoothPhoneInfo.m in Sources */,
+				1E8637AE1066DD7A0059190F /* BluetoothCommandChannel.m in Sources */,
+				1E8638061067C90B0059190F /* SMSSender.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EE982B510655DDE00DCC186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				INFOPLIST_FILE = "AddressBookPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Address Book Plug-Ins/";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = emitSMSAddressBookPlugin;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1EE982B610655DDE00DCC186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "AddressBookPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Address Book Plug-Ins/";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = emitSMSAddressBookPlugin;
+				SDKROOT = macosx10.5;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1EE9853310657F5400DCC186 /* Deploy&Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = "Deploy&Debug";
+		};
+		1EE9853510657F5400DCC186 /* Deploy&Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				INFOPLIST_FILE = "AddressBookPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Address Book Plug-Ins/";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = emitSMSAddressBookPlugin;
+				SDKROOT = macosx10.5;
+			};
+			name = "Deploy&Debug";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE982B710655DDE00DCC186 /* Build configuration list for PBXNativeTarget "SMSAddressBookPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE982B510655DDE00DCC186 /* Debug */,
+				1EE9853510657F5400DCC186 /* Deploy&Debug */,
+				1EE982B610655DDE00DCC186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AddressBookSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				1EE9853310657F5400DCC186 /* Deploy&Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
