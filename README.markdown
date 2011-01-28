@@ -4,5 +4,5 @@ In the distant past, the Address Book app in Mac OS X Tiger could send mobile SM
 
 Usage
 -----
-See http://sigmaris.info/blog/?p=43 for more details.
+See [the blog post](http://sigmaris.info/blog/?p=43) for more details.
 
