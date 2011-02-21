@@ -12,5 +12,5 @@ If ‘Long Messages’ is not enabled your messages will be limited to 160 chara
 
 In general, if your phone works with the emitSMS dashboard widget, it should work with this plugin as the same underlying method is used to send the SMSs. 
 
-See [the blog post](http://sigmaris.info/blog/?p=43) for more details.
+See [the blog post](http://sigmaris.info/blog/?page_id=60) for more details.
 
